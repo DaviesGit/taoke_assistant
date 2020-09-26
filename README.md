@@ -76,7 +76,7 @@
 ### Prerequisites
 
 这个项目的依赖安装步骤在下面给出。
-* [[Google Chrome](https://www.google.com/chrome/)](https://www.imagemagick.org/)
+* [Google Chrome](https://www.google.com/chrome/)
 
 ```sh
 请根据你的操作系统下载并安装对应的谷歌浏览器。
@@ -119,6 +119,7 @@ See the [open issues](https://example.com) for a list of proposed features (and 
 
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
