@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src="./js/jquery-3.2.1.js"></script>
+    <script src="./js/base62.js"></script>
+    <script src="./js/webuploader.js"></script>
+    <script src="./js/database.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/view.js"></script>
+    <link type="text/css" rel="stylesheet" href="./css/main.css">
+    <link type="text/css" rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div><img id="QRCode"></div>
+    <div class="mainView">
+        <div class="panel panel-default">
+            <div class="panel-heading">all contacts list</div>
+            <div id="contactList" class="container">
+                <label class="panel-body">
+                    <input name="contact" type="radio" value="" >
+                    <span>contact name</span>
+                </label>
+            </div>
+            <!--$( 'input[name="contact"]:checked').val()-->
+        </div>
+        <div class="chatArea">
+            <div cus-id="chatBox" class="panel panel-default">
+                <div class="panel-heading">this is header</div>
+                <div class="msgs">
+                    <div class="msg l">
+                        <span class="label label-default username"></span>
+                        <span class="content"></span>
+                    </div>
+                    <div class="msg r">
+                        <span class="content"></span>
+                        <span class="label label-default username"></span>
+                    </div>
+                </div>
+                <!--$( 'input[name="contact"]:checked').val()-->
+            </div>
+            <div class="editor">
+                <textarea></textarea>
+                <button id="sendMsg" class="">Send=></button>
+            </div>
+        </div>
+    </div>
+    <button id="monitor" style="position:fixed;top:0px;right:0px;">monitor</button>
+
+</body>
+
+</html>

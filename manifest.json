@@ -1,0 +1,38 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "exclude_matches": [  ],
+      "include_globs": [ "*" ],
+      "js": [ "jquery-3.2.1.js","contentscript.js" ],
+      "matches": [ "*://wx2.qq.com/*","*://pub.alimama.com/*"],
+      "run_at": "document_idle"
+   } ],
+   "externally_connectable" : {
+      "matches": ["*://wx2.qq.com/*","*://pub.alimama.com/*"]
+   },
+   "background":{
+      "scripts":["jquery-3.2.1.js","bgScript.js"]
+   },
+   "permissions":[
+      "tabs",
+      "bookmarks",
+      "webRequest",
+      "cookies",
+      "*://*.qq.com/*",
+      "*://*.alimama.com/*",
+      "*://*.tmall.com/*",
+      "*://*.taobao.com/*",
+      "*://*.tuling123.com/*"
+   ],
+   "web_accessible_resources":[
+      "aliScript.js",
+      "wcScript.js",
+      "jquery-3.2.1.js",
+      "editor.html",
+      "webpage/*"
+   ],
+   "name": "TaokeAssistant",
+   "version": "1.5.98",
+   "description": "Made by Davies",
+   "manifest_version":2
+}
